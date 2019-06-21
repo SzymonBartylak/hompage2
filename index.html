@@ -10,35 +10,41 @@
 </head>
 
 <body>
-	<header>
-		<a href="index.html">Strona główna</a>
-		<a href="podstrona.html">Prawidłowy HTML</a>
-		<a href="zNagrywanie.html">Nagrywanie szkoleń</a>
+	<header  class="navigation">
+		<a class="navigation__link" href="index.html">Strona główna</a>
+		<a class="navigation__link" href="podstrona.html">Prawidłowy HTML</a>
+		<a class="navigation__link" href="zNagrywanie.html">Nagrywanie szkoleń</a>
 	</header>
-	<main>
+	<main id="top">
 		<header>
-			<h1>
+			<h1 class="mainHeader">
 				Szymon Bartylak - strona domowa
 			</h1>
 		</header>
 
-		<section>
-			<h2>Kim jestem?</h2>
-			<p>
+		<section class="about">
+			<div class="box"> co ten frontend?</div>
+			<h2 class="about__header">Kim jestem?</h2>
+			<p class="about__paragraph">
+			<img src="bird.jpg" alt="ptaszek" class="ptaszek">
 				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut eius rem odit sint corrupti quia quam! Libero
 				laboriosam voluptate ad. In exercitationem, debitis dignissimos temporibus commodi voluptatem similique hic
 				eveniet!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum ipsum voluptatibus, illo, beatae
 				officia quis in rerum minus magni fugit debitis porro? Temporibus, ipsum sequi deleniti totam libero accusantium
 				ea!
+				
 				<br>
 				<a href="#pamiętniczek">Przejdź do pamiętniczka</a>
 			</p>
 		</section>
+		<br>
+		<br>
+		<br>
 		<section id="pamiętniczek">
 			<h2>Pamiętniczek</h2>
 			<section>
 				<h3>Jak stworzyć prawidłowego htmla?</h3>
-				<p>
+				<p class="about__paragraph">
 					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus modi nemo eum corrupti incidunt
 					voluptates tempore. Numquam, quas excepturi enim vel doloremque deserunt laborum libero sed obcaecati,
 					reprehenderit minima veritatis.
@@ -48,7 +54,7 @@
 			</section>
 			<section>
 				<h3>Czy nagrywanie szkolenia to prosta sprawa?</h3>
-				<p>
+				<p class="about__paragraph">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint earum sunt voluptas quisquam doloribus odio ea
 					voluptates consequatur maxime, commodi qui? Esse nisi ipsa voluptatibus ducimus nam eligendi praesentium
 					possimus.
@@ -59,8 +65,10 @@
 
 	</main>
 	<footer>
+		<a href="#top" class="top">Na górę</a>
 		Strona domowa Szymona Bartylak, wszystkie treści są efektem cieżkiej pracy.
 	</footer>
+	<script src="main.js"></script>
 </body>
 
 </html>

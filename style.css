@@ -2,14 +2,71 @@ Body {
 	background-color: #fefefe;
 }
 
-h1 {
+.mainHeader {
 	color: dodgerblue;
+	margin-bottom: 16px;
+	padding-top:50px;
 }
 
-p {
-	color: springgreen;
-}
 
-h2 {
+.sectionHeader {
 	color: #1460AA;
+}
+
+.navigation{
+	position:fixed;
+	width:100%;
+	top:0px;
+	left: 0;
+	box-sizing:border-box;
+	padding:16px;
+	background-color:turquoise;
+}
+
+.navigation__link{
+columns: #358358;
+}
+
+.about{
+	position: relative;
+	width: 100%;
+	max-width: 700px;
+	margin:16px auto;
+}
+
+.about__paragraph{
+	padding:16px;
+	border-bottom: 3px solid #120965;
+	background-color: #858b01;
+	border-radius: 15px;
+
+	width: 100%;
+	max-width: 700px;
+	margin:32px auto;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	padding:10px;
+	box-sizing: border-box;
+	border:4px solid pink;
+	position: absolute;
+	top: 10px;
+	left: 50%;
+}
+
+.top{
+	position: fixed;
+	bottom:10px;
+	right:10px;
+}
+
+.ptaszek{
+	width: 100%;
+	max-width: 100px;
+	display: block;
+	float: left;
+	margin: 0 16px 16px 0;
 }
