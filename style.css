@@ -2,7 +2,7 @@ Body {
 	background-color: #fefefe;
 }
 
-.mainHeader {
+.header__title{
 	color: dodgerblue;
 	margin-bottom: 16px;
 	padding-top:50px;
@@ -27,6 +27,12 @@ Body {
 columns: #358358;
 }
 
+.main{
+	width: 100%;
+	max-width: 700px;
+	margin:16px auto;
+}
+
 .about{
 	position: relative;
 	width: 100%;
@@ -43,6 +49,34 @@ columns: #358358;
 	width: 100%;
 	max-width: 700px;
 	margin:32px auto;
+}
+
+.diary{
+
+}
+
+.diary__header{
+	margin: 0 16px 16px 0;
+}
+
+.day{
+padding:16px;
+}
+
+.day__header{
+margin:0 0 16px;
+color: #622eb6;
+font-size: 20px;
+}
+
+.day__paragraph{
+line-height: 24px;
+padding:0;
+margin:0;
+}
+
+.day__link{
+
 }
 
 .box {
